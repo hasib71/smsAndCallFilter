@@ -42,6 +42,8 @@ Features:
 Change Log:
 ==========
 
+####Version 1.4.8
+* Few Numbers has been added in the block list by default. For incoming call only.
 
 ####Version 1.4.7
 * Update Weight vector.

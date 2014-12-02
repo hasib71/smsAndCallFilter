@@ -12,6 +12,8 @@ package com.sadakhata.smsandcallfilter;
 
 import android.content.BroadcastReceiver;
 import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.List;
 
 import android.content.Context;
 import android.content.Intent;
@@ -30,7 +32,7 @@ public class callReceiver extends BroadcastReceiver
 		try{
 		 	String incomingNumber = intent.getStringExtra(TelephonyManager.EXTRA_INCOMING_NUMBER);
 		 	
-		 	if(incomingNumber.length() < 5)
+			if(incomingNumber.length() < 5 || isSpamCall(incomingNumber))
 		 	{
 				try{
 					TelephonyManager telephonyManager = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
@@ -50,5 +52,12 @@ public class callReceiver extends BroadcastReceiver
 		{
 			e.printStackTrace();
 		}
+	}
+
+	private boolean isSpamCall(String number)
+	{
+		List<String> spamCaller = Arrays.asList("+8807181");
+		
+		return spamCaller.indexOf(number) != -1;
 	}
 }
