@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Hasib Al Muhaimin.
+ * 
+ * The contents of this file are subject to the Mozilla Public License
+ * Version 1.1 (the "License"); you may not use this file except in
+ * compliance with the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ * 
+ * ***courtesy to Jelle Geerts***
+ * Author: Jelle Geerts
+
+ * Usage of the works is permitted provided that this instrument is
+ * retained with the works, so that any entity that uses the works is
+ * notified of this instrument.
+ *
+ * DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
+*/
+-->
+
+<resources>
+
+    <string name="app_name">SMS and Call Filter</string>
+    <string name="app_version_name">Version 1.4.7</string>
+    <string name="sorry">Sorry</string>
+    <string name="appMayNotWork">SMS Filter probably doesn\'t work on your version of Android. Please complain to Google at https://code.google.com/p/android/issues/detail?id=61684</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="messageFilters">Message filters</string>
+    <string name="viewAndEditMessageFilters">View/edit message filters</string>
+    <string name="messages">Message Log</string>
+    <string name="viewBlockedMessages">View blocked messages</string>
+    <string name="saveMessages">Show Notifications</string>
+    <string name="saveMessagesAndShowNotifications">Display notifications in status bar</string>
+    <string name="noItemsSelected">No item(s) selected.</string>
+    <string name="filterWillBeDeleted">The filter will be deleted.</string>
+    <string name="filtersWillBeDeleted">The filters will be deleted.</string>
+    <string name="newMessageFilter">New message filter</string>
+    <string name="editMessageFilter">Edit message filter</string>
+    <string name="deleteMessageFilter">Delete message filter</string>
+    <string name="filterName">Filter name</string>
+    <string name="fromAddress">From (sender address)</string>
+    <string name="enterAnyToApplyToAll">Enter #ANY# to apply the filter to any address.</string>
+    <string name="addContentFilter">Add a content filter</string>
+    <string name="addAnotherContentFilter">Add another content filter</string>
+    <string name="clear">Clear</string>
+    <string name="blockMessageIfItContains">Block message if it contains all of the following parts (case insensitive):</string>
+    <string name="partOfTheMessage">Part of the message</string>
+    <string name="thisFieldMayNotBeEmpty">This field may not be empty.</string>
+    <string name="filterNameAlreadyUsed">A filter with this name already exists.</string>
+    <string name="deleteAll">Delete all</string>
+    <string name="messageOptions">Message options</string>
+    <string name="viewMessage">View message</string>
+    <string name="deleteMessage">Delete message</string>
+    <string name="from">From</string>
+    <string name="received">Received</string>
+    <string name="noMessagesToDelete">There are no messages to delete.</string>
+    <string name="messageWillBeDeleted">The message will be deleted.</string>
+    <string name="allMessagesWillBeDeleted">All messages will be deleted.</string>
+
+    <!--
+    <string name="smsFilterBlockedAMessage">SMS Filter blocked a message</string>
+    <string name="clickToViewBlockedMessage">Select to view the blocked message.</string>
+    -->
+    <string name="restoreMessageToInbox">Restore Message to Inbox</string>
+    <string name="title_activity_about">About</string>
+    <string name="successRestoreMessage">Message Restored Successfully!</string>
+    <string name="somethingWentWrong">Something Went Wrong!</string>
+
+</resources>
