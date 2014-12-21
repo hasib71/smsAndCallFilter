@@ -11,6 +11,8 @@
 # Generated files
 bin/
 gen/
+out/
+.idea/
 
 # Gradle files
 .gradle/
@@ -24,3 +26,6 @@ proguard/
 
 # Log Files
 *.log
+
+# Android Studio Files
+smsAndCallFilter.iml
