@@ -12,6 +12,7 @@
 package com.sadakhata.spamsmsblocker;
 
 import com.sadakhata.ml.*;
+import com.sadakhata.banglatoenglishrupantor.*;
 import java.util.Locale;
 import android.content.res.AssetManager;
 
@@ -83,6 +84,7 @@ public class SKSpamBlocker{
 
 	private void hashFullString(double x[], String msg)
 	{
+        msg = Rupantor.convert(msg);
 		msg = msg.toLowerCase(Locale.ENGLISH);
 		String delims = "[^a-z]+";
 		String msgtokens[] = msg.split(delims);
