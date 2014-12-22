@@ -44,6 +44,8 @@ Change Log:
 
 ####Version 1.4.8
 * Few Numbers has been added in the block list by default. For incoming call only.
+* Bangla to English Converter added. So we can train on Bangla message now!
+* Contribution link added.
 
 ####Version 1.4.7
 * Update Weight vector.

@@ -110,5 +110,18 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginTop="20dp"
 	        android:text="Block sms from user who hides their mobile no(e.g. Amar Tunes, Exciting Offer, Internet etc.)" />
-	</LinearLayout>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Want to Contribute?"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Go to: https://github.com/hasib71/smsAndCallFilter" />
+    </LinearLayout>
 </ScrollView>
