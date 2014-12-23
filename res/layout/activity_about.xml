@@ -122,6 +122,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Go to: https://github.com/hasib71/smsAndCallFilter" />
+            android:text="You are awesome! Here you go! \nhttps://github.com/hasib71/smsAndCallFilter" />
     </LinearLayout>
 </ScrollView>
