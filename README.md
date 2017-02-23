@@ -26,6 +26,23 @@ License
 >  DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 
 
+Privacy Policy
+==============
+**Types of data collected**
+
+* SMS and Call Filter only collects and save incoming Spam SMS messages. Note that The spam detection algorithm used in the application is not a perfect spam detection algorithm. Thus the application may detect a non-spam message as spam and store the message in it's database. The user can delete any SMS message stored in the application.
+
+**Methods of processing data**
+* The spam detection algorithm is implemented inside the application and the application doesn't share any SMS with any other application(except the default SMS application) or over the internet.
+
+* For call filtering, the application doesn't save any contact numbers. After filtering the incoming call. The Data is kept in device memory for the time necessary to provide the service.
+* Note that, the application/software/algorithm is without any kind of warranty.
+
+**Changes to this privacy policy**
+* The Developers reserve the right to make changes to this privacy policy at any time by giving notice to its Users on this page. It is strongly recommended to check this page often
+
+***Updated on 23 February, 2017***
+
 Features:
 =========
 
